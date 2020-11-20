@@ -8,11 +8,12 @@
 #include "candy1431.h"
 #include "baoshi771.h"
 #include "maxIn807.h"
+#include "jieya1313.h"
 using namespace std;
 
 int main()
 {
-	int select = 807;
+	int select = 1313;
 	if (select == 1)
 	{
 		vector<int> arr = { 6,1,2,7,9,3,4,5,10,8 };
@@ -76,6 +77,14 @@ int main()
 		cout << result;
 	
 	}
-
+	if (select == 1313)
+	{
+		vector<int>v = { 1,2,3,4 };
+		vector<int>result= decompressRLElist(v);
+		for (int i = 0; i < result.size(); i++)
+		{
+			cout << result[i] << ",";
+		}
+	}
 	return 1;
 }

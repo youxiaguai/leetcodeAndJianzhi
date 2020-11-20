@@ -122,5 +122,44 @@
     <ClInclude Include="zhongweishuJZ63.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="delete237.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cha1281.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="create1389.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jieya1313.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="smallerNumbersThanCurrent1365.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxDepth.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="numberOfSteps1342.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minTimeToVisitAllPoints1266.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="isAnagram242.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="findNumbers1295.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sumOddLengthSubarrays1588.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="getDecimalValue1290.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="diagonalSum1572.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
