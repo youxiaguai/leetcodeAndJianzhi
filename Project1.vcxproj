@@ -161,6 +161,7 @@
     <ClInclude Include="ip1108.h" />
     <ClInclude Include="jiayouzhan134.h" />
     <ClInclude Include="kuaipai.h" />
+    <ClInclude Include="LSP17.h" />
     <ClInclude Include="maxIn807.h" />
     <ClInclude Include="minOperation1551.h" />
     <ClInclude Include="nayingbiLCP06.h" />
