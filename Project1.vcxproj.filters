@@ -122,5 +122,14 @@
     <ClInclude Include="zhongweishuJZ63.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="paixu148.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="delete237.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="busyStudent1450.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -146,11 +146,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="baoshi771.h" />
+    <ClInclude Include="busyStudent1450.h" />
     <ClInclude Include="candy1431.h" />
     <ClInclude Include="charu147.h" />
     <ClInclude Include="chongpai1470.h" />
     <ClInclude Include="chuizhi1637.h" />
     <ClInclude Include="common.h" />
+    <ClInclude Include="delete237.h" />
     <ClInclude Include="dongtaihe1480.h" />
     <ClInclude Include="duichenTreeJZ58.h" />
     <ClInclude Include="erfen.h" />
@@ -165,6 +167,7 @@
     <ClInclude Include="nextTreeLinkJZ8.h" />
     <ClInclude Include="niuniuXiao.h" />
     <ClInclude Include="numTeams1395.h" />
+    <ClInclude Include="paixu148.h" />
     <ClInclude Include="shanchu0203.h" />
     <ClInclude Include="shezhi1603.h" />
     <ClInclude Include="shousuoTreeKJZ54.h" />
