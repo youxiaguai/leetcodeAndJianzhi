@@ -137,9 +137,6 @@
     <ClInclude Include="smallerNumbersThanCurrent1365.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="maxDepth.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="numberOfSteps1342.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -161,7 +158,25 @@
     <ClInclude Include="diagonalSum1572.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="LSP17.h">
+    <ClInclude Include="sortedArrayToBST0402.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="restoreString1528.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="balancedStringSplit1221.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mergeTrees617.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="countGoodTriplets1534.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hammingDistance461.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="destCity1436.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
