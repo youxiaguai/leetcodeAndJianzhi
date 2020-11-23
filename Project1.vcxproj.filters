@@ -179,5 +179,41 @@
     <ClInclude Include="destCity1436.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="findMinArrowShots452.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="judgeCircle657.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="removeOuterParentheses1021.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="invertTree226.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rangeSumBST938.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="replaceElements1299.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="canFormArray1640.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="constructMaximumBinaryTree654.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxProduct1464.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderedStream1656.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="toLowerCase709.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="permutation0807.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

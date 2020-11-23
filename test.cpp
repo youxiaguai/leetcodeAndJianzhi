@@ -9,11 +9,14 @@
 #include "baoshi771.h"
 #include "maxIn807.h"
 #include "jieya1313.h"
+#include "judgeCircle657.h"
+#include "replaceElements1299.h"
+#include "permutation0807.h"
 using namespace std;
 
 int main()
 {
-	int select = 1313;
+	int select = 8070;
 	if (select == 1)
 	{
 		vector<int> arr = { 6,1,2,7,9,3,4,5,10,8 };
@@ -85,6 +88,24 @@ int main()
 		{
 			cout << result[i] << ",";
 		}
+	}
+	if (select == 657)
+	{
+		string moves= "UD";
+		bool result = judgeCircle(moves);
+		cout << result;
+	}
+	if (select == 1299)
+	{
+		vector<int>arr = { 17,18,5,4,6,1 };
+		replaceElements(arr);
+	}
+	if (select = 8070)
+	{
+		string s = "abc";
+		vector<string>result=permutation(s);
+		
+		
 	}
 	return 1;
 }
