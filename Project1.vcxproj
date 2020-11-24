@@ -156,7 +156,10 @@
     <ClInclude Include="common.h" />
     <ClInclude Include="constructMaximumBinaryTree654.h" />
     <ClInclude Include="countGoodTriplets1534.h" />
+    <ClInclude Include="countNodes222.h" />
+    <ClInclude Include="countVowelStrings1641.h" />
     <ClInclude Include="create1389.h" />
+    <ClInclude Include="deepestLeavesSum1302.h" />
     <ClInclude Include="delete237.h" />
     <ClInclude Include="destCity1436.h" />
     <ClInclude Include="diagonalSum1572.h" />
@@ -165,7 +168,9 @@
     <ClInclude Include="erfen.h" />
     <ClInclude Include="findMinArrowShots452.h" />
     <ClInclude Include="findNumbers1295.h" />
+    <ClInclude Include="generateParenthesis0809.h" />
     <ClInclude Include="getDecimalValue1290.h" />
+    <ClInclude Include="groupThePeople1282.h" />
     <ClInclude Include="guessLCP01.h" />
     <ClInclude Include="hammingDistance461.h" />
     <ClInclude Include="hao1512.h" />
@@ -176,6 +181,7 @@
     <ClInclude Include="jieya1313.h" />
     <ClInclude Include="judgeCircle657.h" />
     <ClInclude Include="kuaipai.h" />
+    <ClInclude Include="listOfDepth0403.h" />
     <ClInclude Include="maxIn807.h" />
     <ClInclude Include="maxProduct1464.h" />
     <ClInclude Include="mergeTrees617.h" />
@@ -188,6 +194,8 @@
     <ClInclude Include="numTeams1395.h" />
     <ClInclude Include="OrderedStream1656.h" />
     <ClInclude Include="permutation0807.h" />
+    <ClInclude Include="processQueries1409.h" />
+    <ClInclude Include="ptr.h" />
     <ClInclude Include="rangeSumBST938.h" />
     <ClInclude Include="removeOuterParentheses1021.h" />
     <ClInclude Include="replaceElements1299.h" />
@@ -200,6 +208,8 @@
     <ClInclude Include="subR1476.h" />
     <ClInclude Include="getTargetCopy1379.h" />
     <ClInclude Include="subsets0804.h" />
+    <ClInclude Include="subsets78.h" />
+    <ClInclude Include="sumEvenGrandparent1315.h" />
     <ClInclude Include="sumOddLengthSubarrays1588.h" />
     <ClInclude Include="tinyURL535.h" />
     <ClInclude Include="toLowerCase709.h" />

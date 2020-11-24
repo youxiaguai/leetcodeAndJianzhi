@@ -215,5 +215,35 @@
     <ClInclude Include="permutation0807.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ptr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generateParenthesis0809.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="countNodes222.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deepestLeavesSum1302.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="groupThePeople1282.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sumEvenGrandparent1315.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="listOfDepth0403.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="processQueries1409.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="subsets78.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="countVowelStrings1641.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
