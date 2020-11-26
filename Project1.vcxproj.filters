@@ -272,5 +272,38 @@
     <ClInclude Include="smartPtr.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="WordsFrequency1602.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="countBits338.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sortedListToBST109.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="combine77.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rotate0107.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="countBattleships419.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BSTIterator173.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="findSmallestSetOfVertices1557.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gameOfLife289.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maximumGap164.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="singleNumber260.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
