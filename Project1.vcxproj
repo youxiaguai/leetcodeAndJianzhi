@@ -147,10 +147,12 @@
   <ItemGroup>
     <ClInclude Include="balancedStringSplit1221.h" />
     <ClInclude Include="baoshi771.h" />
+    <ClInclude Include="bstToGst1038.h" />
     <ClInclude Include="candy1431.h" />
     <ClInclude Include="canFormArray1640.h" />
     <ClInclude Include="cha1281.h" />
     <ClInclude Include="charu147.h" />
+    <ClInclude Include="checkArithmeticSubarrays1630.h" />
     <ClInclude Include="chongpai1470.h" />
     <ClInclude Include="chuizhi1637.h" />
     <ClInclude Include="common.h" />
@@ -159,15 +161,18 @@
     <ClInclude Include="countNodes222.h" />
     <ClInclude Include="countVowelStrings1641.h" />
     <ClInclude Include="create1389.h" />
+    <ClInclude Include="deckRevealedIncreasing950.h" />
     <ClInclude Include="deepestLeavesSum1302.h" />
     <ClInclude Include="delete237.h" />
     <ClInclude Include="destCity1436.h" />
+    <ClInclude Include="diagonalSort1329.h" />
     <ClInclude Include="diagonalSum1572.h" />
     <ClInclude Include="dongtaihe1480.h" />
     <ClInclude Include="duichenTreeJZ58.h" />
     <ClInclude Include="erfen.h" />
     <ClInclude Include="findMinArrowShots452.h" />
     <ClInclude Include="findNumbers1295.h" />
+    <ClInclude Include="generateMatrix59.h" />
     <ClInclude Include="generateParenthesis0809.h" />
     <ClInclude Include="getDecimalValue1290.h" />
     <ClInclude Include="groupThePeople1282.h" />
@@ -182,6 +187,7 @@
     <ClInclude Include="judgeCircle657.h" />
     <ClInclude Include="kuaipai.h" />
     <ClInclude Include="listOfDepth0403.h" />
+    <ClInclude Include="maxCoins1561.h" />
     <ClInclude Include="maxIn807.h" />
     <ClInclude Include="maxProduct1464.h" />
     <ClInclude Include="mergeTrees617.h" />
@@ -194,6 +200,7 @@
     <ClInclude Include="numTeams1395.h" />
     <ClInclude Include="OrderedStream1656.h" />
     <ClInclude Include="permutation0807.h" />
+    <ClInclude Include="permute46.h" />
     <ClInclude Include="processQueries1409.h" />
     <ClInclude Include="ptr.h" />
     <ClInclude Include="rangeSumBST938.h" />
@@ -204,7 +211,9 @@
     <ClInclude Include="shezhi1603.h" />
     <ClInclude Include="shousuoTreeKJZ54.h" />
     <ClInclude Include="smallerNumbersThanCurrent1365.h" />
+    <ClInclude Include="smartPtr.h" />
     <ClInclude Include="sortedArrayToBST0402.h" />
+    <ClInclude Include="sortString1370.h" />
     <ClInclude Include="subR1476.h" />
     <ClInclude Include="getTargetCopy1379.h" />
     <ClInclude Include="subsets0804.h" />

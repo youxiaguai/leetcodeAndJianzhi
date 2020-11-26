@@ -15,15 +15,29 @@
 #include "ptr.h"
 #include "erfen.h"
 #include "subsets78.h"
+#include "deckRevealedIncreasing950.h"
+#include "smartPtr.h"
 
 #include <stdio.h>
 #include <string>
 #include <memory>
+#include <stdio.h>
+#include <sys/types.h>
+#include <cstring>
+
+
+
+//#include <unistd.h>
+#include <stdlib.h>
 using namespace std;
+
+
+
+
 
 int main()
 {
-	int select = 78;
+	int select = 666;
 	if (select == 1)
 	{
 		vector<int> arr = { 6,1,2,7,9,3,4,5,10,8 };
@@ -128,42 +142,6 @@ int main()
 	if (select == 333)
 	{
 
-			/* 弊端 1. auto_ptr 被C++11 抛弃的主要理由 p1 = p2, 复制或赋值都会改变资源的所有权 */
-			/* unique_ptr 如何解决这个问题? 不允许显示的右值赋值和构造 */
-			unique_ptr<string> p1(new string("I 'm weifc"));
-			unique_ptr<string> p2(new string("I 'm weikc"));
-			printf("p1: %p\n", p1.get());
-			printf("p2: %p\n", p2.get());
-
-			/* 如果一定要转移, 使用 move 把左值转成右值 */
-			p1 = std::move(p2);
-			printf("p1: %p\n", p1.get());
-			printf("p2: %p\n", p2.get());
-
-			/* p1 = p2; 左值赋值禁止 */
-			unique_ptr<string> p3(new string("I 'm p3."));
-			unique_ptr<string> p4(std::move(p3)); /* 左值拷贝构造也不行, 必须转成右值 */
-
-			/* 弊端2. 在 STL 容器中使用 auto_ptr 存在重大风险, 因为容器内的元素必需支持可复制(copy constructable)
-			和 可赋值 (assignable). */
-			vector<unique_ptr<string>> vu;
-			unique_ptr<string> p5(new string("I 'm p5"));
-			unique_ptr<string> p6(new string("I 'm p6"));
-
-			vu.push_back(std::move(p3));
-			vu.push_back(std::move(p4));
-
-			cout << "va[0]: " << *vu[0] << endl;
-			cout << "va[1]: " << *vu[1] << endl;
-
-			// vu[0] = vu[1]; // unique_ptr 不支持直接赋值, 没有风险
-
-			/* 弊端 3. auto_ptr 不支持对象数组的内存管理, unique_ptr 支持 */
-			// 但是 unique_ptr 支持对象数组的管理
-			// auto_ptr<int[]> ai(new int[5]); // 不能这样定义
-			unique_ptr<int[]> ui(new int[5]); // 自动会调用 delete [] 函数去释放
-
-			system("pause");
 			
 		
 
@@ -181,5 +159,82 @@ int main()
 			cout << endl;
 		}
 	}
-	return 1;
+	if (select == 950)
+	{
+		vector<int>deck = { 17,13,11,2,3,5,7 };
+		vector<int>res=deckRevealedIncreasing(deck);
+		for (int i = 0; i < res.size(); i++)
+		{
+			cout << res[i] << ",";
+		}
+	}
+	if (select == 111)
+	{
+		//pid_t pid = fork();
+		char s[20] = "Yuanlijun";
+		char res[20];
+		string ss = "yuanlijun";
+		int result=strlen(s);
+		strcpy_s(res, s);
+		cout << res<<","<<result;
+	}
+	if (select == 444)
+	{
+		for (int i = 0; i + 20; i--)
+			cout << "hello" << endl;
+	}
+	if (select == 555)
+	{
+		int* i = new int(2);
+		{
+			SmartPtr<int> ptr1(i);
+			{
+				SmartPtr<int> ptr2(ptr1);
+				{
+					SmartPtr<int> ptr3 = ptr2;
+
+					cout << *ptr1 << endl;
+					*ptr1 = 20;
+					cout << *ptr2 << endl;
+
+				}
+			}
+		}
+		system("pause");
+	}
+	if (select == 666)
+	{
+		vector<int> a = {1,2,3};
+		cout << a.size() << "  " << a.capacity() << endl;
+		//a.reserve(100);
+		a.resize(50);
+		for (int i = 0; i <a.size(); i++)
+		{
+			cout << a[i] << ",";
+		}
+		cout << endl;
+		cout << a.size() << "  " << a.capacity() << endl;
+		a.reserve(100);
+		//50  100
+		//a.resize(150);
+		for (int i = 0; i < a.size(); i++)
+		{
+			cout << a[i] << ",";
+		}
+		cout << endl;
+		cout << a.size() << "  " << a.capacity() << endl;
+		//150  200
+		a.reserve(50);
+		cout << a.size() << "  " << a.capacity() << endl;
+		//150  200
+		a.resize(50);
+		cout << a.size() << "  " << a.capacity() << endl;
+		//50  200    
+		
+	}
+	return 0;
 }
+
+
+
+

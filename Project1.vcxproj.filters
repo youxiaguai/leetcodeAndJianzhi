@@ -245,5 +245,32 @@
     <ClInclude Include="countVowelStrings1641.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="maxCoins1561.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generateMatrix59.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bstToGst1038.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="checkArithmeticSubarrays1630.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sortString1370.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="diagonalSort1329.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="permute46.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deckRevealedIncreasing950.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="smartPtr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
