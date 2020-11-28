@@ -14,7 +14,7 @@ vector<int> singleNumber(vector<int>& nums) {
 		{
 			res.push_back(i);
 		}
-	}
+	} 
 	return res;
 
 }

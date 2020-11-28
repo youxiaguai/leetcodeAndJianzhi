@@ -17,6 +17,8 @@
 #include "subsets78.h"
 #include "deckRevealedIncreasing950.h"
 #include "smartPtr.h"
+#include "combinationSum3216.h"
+#include "combinationSum39.h"
 
 #include <stdio.h>
 #include <string>
@@ -37,7 +39,7 @@ using namespace std;
 
 int main()
 {
-	int select = 666;
+	int select = 39;
 	if (select == 1)
 	{
 		vector<int> arr = { 6,1,2,7,9,3,4,5,10,8 };
@@ -231,6 +233,20 @@ int main()
 		cout << a.size() << "  " << a.capacity() << endl;
 		//50  200    
 		
+	}
+	if (select == 39) {
+		//combinationSum3(3, 7);
+		Solution39 s;
+		vector<int>candidates = { 2,3,6,7 };
+		vector<vector<int>>ans;
+		ans = s.combinationSum(candidates, 7);
+		for (int i = 0; i < ans.size(); i++)
+		{
+			for (int j = 0; j < ans[0].size(); j++)
+			{
+				cout << ans[i][j];
+			}
+		}
 	}
 	return 0;
 }

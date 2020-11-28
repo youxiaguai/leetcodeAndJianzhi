@@ -156,6 +156,8 @@
     <ClInclude Include="checkArithmeticSubarrays1630.h" />
     <ClInclude Include="chongpai1470.h" />
     <ClInclude Include="chuizhi1637.h" />
+    <ClInclude Include="combinationSum3216.h" />
+    <ClInclude Include="combinationSum39.h" />
     <ClInclude Include="combine77.h" />
     <ClInclude Include="common.h" />
     <ClInclude Include="constructMaximumBinaryTree654.h" />
@@ -177,6 +179,7 @@
     <ClInclude Include="findMinArrowShots452.h" />
     <ClInclude Include="findNumbers1295.h" />
     <ClInclude Include="findSmallestSetOfVertices1557.h" />
+    <ClInclude Include="fourSumCount454.h" />
     <ClInclude Include="gameOfLife289.h" />
     <ClInclude Include="generateMatrix59.h" />
     <ClInclude Include="generateParenthesis0809.h" />
@@ -224,6 +227,7 @@
     <ClInclude Include="sortedArrayToBST0402.h" />
     <ClInclude Include="sortedListToBST109.h" />
     <ClInclude Include="sortString1370.h" />
+    <ClInclude Include="stoneGame877.h" />
     <ClInclude Include="subR1476.h" />
     <ClInclude Include="getTargetCopy1379.h" />
     <ClInclude Include="subsets0804.h" />

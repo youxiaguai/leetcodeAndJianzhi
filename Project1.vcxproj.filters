@@ -305,5 +305,17 @@
     <ClInclude Include="singleNumber260.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="fourSumCount454.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="combinationSum3216.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stoneGame877.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="combinationSum39.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
