@@ -317,5 +317,83 @@
     <ClInclude Include="combinationSum39.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="reversePairs493.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="largestPerimeter976.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reorganizeString767.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="matrixScore861.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mergeInBetween5558.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="allPathsSourceTarget797.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bstFromPreorder1008.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="constructFromPrePost889.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="countPrimes204.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomStack1381.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="diffWaysToCompute241.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="getAllElements1305.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inorderTraversal94.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kthSmallest230.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="levelOrder429.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxLevelSum1161.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxNumber321.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minimumTotal120.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="numSplits1525.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="numTilePossibilities1079.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="postorderTraversal145.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reconstructQueue406.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="removeLeafNodes1325.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="searchRange34.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mincostTickets983.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="frequencySort451.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

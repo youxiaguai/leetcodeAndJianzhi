@@ -19,6 +19,7 @@
 #include "smartPtr.h"
 #include "combinationSum3216.h"
 #include "combinationSum39.h"
+#include "reconstructQueue406.h"
 
 #include <stdio.h>
 #include <string>
@@ -39,7 +40,7 @@ using namespace std;
 
 int main()
 {
-	int select = 39;
+	int select = 406;
 	if (select == 1)
 	{
 		vector<int> arr = { 6,1,2,7,9,3,4,5,10,8 };
@@ -247,6 +248,11 @@ int main()
 				cout << ans[i][j];
 			}
 		}
+	}
+	if (select == 406) {
+		vector<vector<int>>people{ {7,0},{4,4},{7,1},{5,0},{6,1},{5,2} };
+		reconstructQueue( people);
+		
 	}
 	return 0;
 }
