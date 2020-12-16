@@ -395,5 +395,179 @@
     <ClInclude Include="frequencySort451.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="sumNumbers129.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="findDuplicate287.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="intervalIntersection986.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oddEvenList328.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="canVisitAllRooms841.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cloneGraph133.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="countArrangement526.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="countTriplets1442.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dailyTemperatures739.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="duipai.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="findKthLargest215.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="intToRoman12.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxArea11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minimumDeleteSum712.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nthSuperUglyNumber313.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="splitIntoFibonacci842.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stoneGameII1140.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="uniquePaths62.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lemonadeChange860.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="groupAnagrams1002.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxSumAfterPartitioning1043.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="twoCitySchedCost1029.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="combinationSum240.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="predictPartyVictory649.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="topKFrequent347.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="calcEquation399.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="climbStairs70.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="containsDuplicate217.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="countSubstrings647.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="diameterOfBinaryTree543.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="findDisappearedNumbers448.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="findMedianSortedArrays4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FizzBuzz1195.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="flatten114.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="getIntersectionNode160.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="groupAnagrams49.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hasCycle141.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="isMatch10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="isPalindrome234.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="isSymmetric101.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="isValid20.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="largestRectangleArea84.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="longestValidParentheses32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxProfit121.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxSubArray53.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mergeTwoLists21.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinStack155.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minWindow32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="monotoneIncreasingDigits738.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rob198.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="trap42.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="twoSum1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wiggleMaxLength376.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wordPattern290.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pathSum437.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxPathSum124.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maximalRectangle85.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxSlidingWindow239.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
