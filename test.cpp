@@ -20,6 +20,7 @@
 #include "combinationSum3216.h"
 #include "combinationSum39.h"
 #include "reconstructQueue406.h"
+#include "Trie208.h"
 
 #include <stdio.h>
 #include <string>
@@ -40,7 +41,7 @@ using namespace std;
 
 int main()
 {
-	int select = 406;
+	int select = 208;
 	if (select == 1)
 	{
 		vector<int> arr = { 6,1,2,7,9,3,4,5,10,8 };
@@ -252,6 +253,22 @@ int main()
 	if (select == 406) {
 		vector<vector<int>>people{ {7,0},{4,4},{7,1},{5,0},{6,1},{5,2} };
 		reconstructQueue( people);
+		
+	}
+	if (select == 208)
+	{
+		Trie e;
+		e.insert("ab");
+		e.search("abc");
+		e.search("ab");
+		e.startsWith("abc");
+		e.startsWith("ab");
+		e.insert("ab");
+		e.search("abc");
+		e.startsWith("abc");
+		e.insert("abc");
+		e.search("abc");
+		e.startsWith("abc");
 		
 	}
 	return 0;
