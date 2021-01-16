@@ -737,5 +737,71 @@
     <ClInclude Include="findUnsortedSubarray581.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="findCircleNum547.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minDistance72.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mergeKLists23.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rotate189.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="getString394.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sortedArrayToBST108.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reverseWords557.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxProfit123.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reverseString344.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="canWinNim292.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lowestCommonAncestor235.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxProfit122.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="grayCode89.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reverse7.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="summaryRanges228.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="merge88.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="removeDuplicates26.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="smallestStringWithSwaps1202.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="multiply43.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sortItems1203.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxEnvelopes354.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="removeStones947.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

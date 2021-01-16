@@ -36,7 +36,34 @@ int trap(vector<int>& height) {
 				break;
 			}
 			int distance = current - stac.top() - 1;
-			int bound_height=min(height[current],height[stac.top()])
+			int bound_height = min(height[current], height[stac.top()])-height[top];
+			ans += bound_height * distance;
 		}
+		stac.push(current++);
 	}
+	return ans;
+	//¶¯Ì¬¹æ»®
+	int ans = 0;
+	int size = height.size();
+	if (size == 0)
+	{
+		return 0;
+	}
+	vector<int>left_max(size);
+	vector<int>right_max(size);
+	left_max[0] = height[0];
+	for (int i = 1; i < size; i++)
+	{
+		left_max[i] = max(left_max[i - 1], height[i]);
+	}
+	right_max[size - 1] = height[size - 1];
+	for (int i = size - 2; i >= 0; i--)
+	{
+		right_max[i] = max(right_max[i + 1], height[i]);
+	}
+	for (int i = 1; i < size - 1; i++)
+	{
+		ans += min(right_max[i],left_max[i])-height[i];
+	}
+	return ans;
 }
