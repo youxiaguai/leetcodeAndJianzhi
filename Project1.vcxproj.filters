@@ -27,6 +27,15 @@
     <ClCompile Include="test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DoubleList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LFUCache.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="niuniuXiao.h">
@@ -801,6 +810,114 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="removeStones947.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="accountsMerge721.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="longestCommonSubsequence1143.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="longestPalindromeSubseq516.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minInsertions1312.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="isMatchOffer19.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sizijianpan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="superEggDrog887.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="canPartition416T.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change518.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LFU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LFUCache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LRUCache1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LRUCache1625.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rob213.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rob337s.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deleteNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="countNodes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Codec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lowestCommonAncestor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nextGreaterElement496.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nextGreaterElements503.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxSlidingWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="isPalindrome.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reverseBetween92.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reverseKGroup25.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="subsets2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="combine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="permute.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="solveSudoku37.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generateParenthesis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="slidingPuzzle773.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="threeSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxTurbulenceSize978.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="calculate224.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

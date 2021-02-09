@@ -21,6 +21,8 @@
 #include "combinationSum39.h"
 #include "reconstructQueue406.h"
 #include "Trie208.h"
+#include "change518.h"
+#include "calculate224.h"
 
 #include <stdio.h>
 #include <string>
@@ -41,7 +43,7 @@ using namespace std;
 
 int main()
 {
-	int select = 208;
+	int select = 224;
 	if (select == 1)
 	{
 		vector<int> arr = { 6,1,2,7,9,3,4,5,10,8 };
@@ -270,6 +272,17 @@ int main()
 		e.search("abc");
 		e.startsWith("abc");
 		
+	}
+	if (select == 518) {
+		int amount = 5;
+		vector<int>coins = {1,2,5};
+		change(amount, coins);
+	}
+	if (select == 224)
+	{
+		string s = "(1+(4+5+2)-3)+(6+8)";
+		int result=calculate(s);
+		cout << result;
 	}
 	return 0;
 }

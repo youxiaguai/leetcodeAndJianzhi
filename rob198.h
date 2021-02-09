@@ -19,4 +19,14 @@ int rob(vector<int>& nums) {
 		dp[i] = max(dp[i - 1], dp[i - 2] + nums[i]);
 	}
 	return dp[n-1];
+	//一维数组解法
+	vector<int>dpp(n, 0);
+	int dp_i_1 = 0, dp_i_2 =1;
+	int dp_i = 0;
+	for (int i = n-1; i >=0; i--)
+	{
+		dp_i = max(dp_i_1, nums[i] + dp_i_2);
+		dp_i_1 = dp_i_2;
+		dp_i_2 = dp_i;
+	}
 }
