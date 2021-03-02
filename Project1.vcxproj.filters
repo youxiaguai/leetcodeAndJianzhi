@@ -36,6 +36,15 @@
     <ClCompile Include="NodeBase.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ExamRoom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NestedIterator341.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UnionFind.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="niuniuXiao.h">
@@ -918,6 +927,45 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="calculate224.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="countPrimes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExamRoom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="intervalSchedule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jump45.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minEatingSpeed875.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NestedIterator341.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shipWithinDays.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="subarraysWithKDistinct992.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="superPow372.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="trap422.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UnionFind.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="solve.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="equationsPossible990.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

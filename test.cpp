@@ -23,6 +23,8 @@
 #include "Trie208.h"
 #include "change518.h"
 #include "calculate224.h"
+#include "equationsPossible990.h"
+#include "UnionFind.h"
 
 #include <stdio.h>
 #include <string>
@@ -43,7 +45,7 @@ using namespace std;
 
 int main()
 {
-	int select = 224;
+	int select = 990;
 	if (select == 1)
 	{
 		vector<int> arr = { 6,1,2,7,9,3,4,5,10,8 };
@@ -282,6 +284,15 @@ int main()
 	{
 		string s = "(1+(4+5+2)-3)+(6+8)";
 		int result=calculate(s);
+		cout << result;
+	}
+	if (select == 990)
+	{
+		string strp[] = { "a==b" ,"a!=b"};
+		vector<string>equations(strp,strp+2);
+		
+		bool result;
+		result = equationsPossible(equations);
 		cout << result;
 	}
 	return 0;

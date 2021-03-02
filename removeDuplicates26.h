@@ -2,18 +2,21 @@
 #include "common.h"
 int removeDuplicates(vector<int>& nums) {
 	int n = nums.size();
-	if (n == 0)
+	int slow = 0, fast = 1;
+	if (n == 0)return 0;
+	while (fast<n)
 	{
-		return 0;
-	}
-	int i = 0;
-	for (int j = 1; j < n; j++)
-	{
-		if (nums[i] != nums[j])
+		if (nums[slow] != nums[fast])
 		{
-			i++;
-			nums[i] = nums[j];
+			nums[slow] = nums[fast];
+			slow++;
+			fast++;
+		}
+		else
+		{
+			fast++;
 		}
 	}
-	return i + 1;
+	nums.resize(slow + 1);
+	return slow+1;
 }
