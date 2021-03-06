@@ -3,6 +3,8 @@
 UnionFind::UnionFind(int n)
 {
 	this->cnt = n;
+	parent.resize(26);
+	size.resize(n);
 	for (int i = 0; i < n; i++)
 	{
 		parent[i] = i;

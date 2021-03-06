@@ -968,5 +968,26 @@
     <ClInclude Include="equationsPossible990.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="copyRandomList36.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FindElements1261.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PeekingIterator284.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="matrixBlockSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyQueue232.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="systemCall.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xiangmu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

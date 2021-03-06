@@ -37,15 +37,38 @@
 
 //#include <unistd.h>
 #include <stdlib.h>
+#include <string>
+#pragma pack(2)
+struct AA
+{
+	int a;
+	char b;
+	short c;
+	char d;
+};
+#pragma pack()
+
 using namespace std;
 
-
+int fun1()
+{
+	union tesy
+	{
+		int i;
+		char c;
+	};
+	tesy t;
+	t.i = 1;
+	//如果是大端，则t.c为0x00,t.c!=1 返回0
+	//如果是小端，t.c==1 返回1
+	return (t.c == 1);
+}
 
 
 
 int main()
 {
-	int select = 990;
+	int select =0;
 	if (select == 1)
 	{
 		vector<int> arr = { 6,1,2,7,9,3,4,5,10,8 };
@@ -288,13 +311,17 @@ int main()
 	}
 	if (select == 990)
 	{
-		string strp[] = { "a==b" ,"a!=b"};
-		vector<string>equations(strp,strp+2);
+		//string strp[] = ;
+		vector<std::string>equations{ "a==b" ,"a!=b"};
 		
 		bool result;
 		result = equationsPossible(equations);
 		cout << result;
 	}
+	/*struct AA aaa;
+	cout << sizeof(AA)<<","<<sizeof(aaa.a)<< "," << sizeof(aaa.b)<< "," << sizeof(aaa.c)<< "," << sizeof(aaa.d);*/
+	int result=fun1();
+	cout << result;
 	return 0;
 }
 

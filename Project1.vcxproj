@@ -192,6 +192,7 @@
     <ClInclude Include="constructMaximumBinaryTree654.h" />
     <ClInclude Include="containsDuplicate217.h" />
     <ClInclude Include="convertBST538.h" />
+    <ClInclude Include="copyRandomList36.h" />
     <ClInclude Include="countArrangement526.h" />
     <ClInclude Include="countBattleships419.h" />
     <ClInclude Include="countBits338.h" />
@@ -232,6 +233,7 @@
     <ClInclude Include="findContentChildren455.h" />
     <ClInclude Include="findDisappearedNumbers448.h" />
     <ClInclude Include="findDuplicate287.h" />
+    <ClInclude Include="FindElements1261.h" />
     <ClInclude Include="findKthLargest215.h" />
     <ClInclude Include="findMedianSortedArrays4.h" />
     <ClInclude Include="findMinArrowShots452.h" />
@@ -306,6 +308,7 @@
     <ClInclude Include="LRUCache1.h" />
     <ClInclude Include="LRUCache146.h" />
     <ClInclude Include="LRUCache1625.h" />
+    <ClInclude Include="matrixBlockSum.h" />
     <ClInclude Include="matrixScore861.h" />
     <ClInclude Include="maxArea11.h" />
     <ClInclude Include="maxCoins1561.h" />
@@ -350,6 +353,7 @@
     <ClInclude Include="minWindow32.h" />
     <ClInclude Include="monotoneIncreasingDigits738.h" />
     <ClInclude Include="multiply43.h" />
+    <ClInclude Include="MyQueue232.h" />
     <ClInclude Include="nayingbiLCP06.h" />
     <ClInclude Include="NestedIterator341.h" />
     <ClInclude Include="nextGreaterElement496.h" />
@@ -369,6 +373,7 @@
     <ClInclude Include="OrderedStream1656.h" />
     <ClInclude Include="partition86.h" />
     <ClInclude Include="pathSum437.h" />
+    <ClInclude Include="PeekingIterator284.h" />
     <ClInclude Include="permutation0807.h" />
     <ClInclude Include="permute.h" />
     <ClInclude Include="permute46.h" />
@@ -437,6 +442,7 @@
     <ClInclude Include="sumOddLengthSubarrays1588.h" />
     <ClInclude Include="superEggDrog887.h" />
     <ClInclude Include="superPow372.h" />
+    <ClInclude Include="systemCall.h" />
     <ClInclude Include="threeSum.h" />
     <ClInclude Include="threeSum15.h" />
     <ClInclude Include="tinyURL535.h" />
@@ -453,6 +459,7 @@
     <ClInclude Include="wordBreak139.h" />
     <ClInclude Include="wordPattern290.h" />
     <ClInclude Include="WordsFrequency1602.h" />
+    <ClInclude Include="xiangmu.h" />
     <ClInclude Include="yidong283.h" />
     <ClInclude Include="yihuo1486.h" />
     <ClInclude Include="zhiTreeJZ59.h" />

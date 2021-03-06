@@ -4,7 +4,7 @@
 bool equationsPossible(vector<string>& equations) {
 	//int n = equations.size();
 	UnionFind uf(26);
-	for (string eq:equations)
+	for (const string &eq:equations)
 	{
 		if (eq.at(1) == '=')
 		{
@@ -13,9 +13,9 @@ bool equationsPossible(vector<string>& equations) {
 			uf.unionPQ(x-'a', y-'a');
 		}
 	}
-	for (auto eq : equations)
+	for (const string &eq : equations)
 	{
-		if (eq[1] == '!')
+		if (eq.at(1) == '!')
 		{
 			char x = eq.at(0);
 			char y = eq.at(3);
